@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /invest
+
+Sitemap: https://www.thefount.co.kr/invest/sitemap.xml
+Host: https://www.thefount.co.kr

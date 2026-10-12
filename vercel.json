@@ -1,5 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/invest/api/consultation", "destination": "https://www.thefount.co.kr/invest/api/consultation" },
+    { "source": "/invest", "destination": "/" },
+    { "source": "/invest/:path*", "destination": "/:path*" }
+  ]
 }
 
